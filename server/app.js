@@ -68,7 +68,7 @@ app.prepare().then(() => {
   const sessionConfig = {
     name: "next-connect.sid",
     // secret used for using signed cookies w/ the session
-    secret: process.env.SESSION_SECRET,
+    secret: process.env.SESSION_SECRET || 'kwehjgfkwerg',
     store: new MongoStore({
       mongooseConnection: mongoose.connection,
       ttl: 14 * 24 * 60 * 60 // save session for 14 days
