@@ -1,5 +1,5 @@
 {
-  "name": "next-connect",
+  "name": "getlinks-connect",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -12,7 +12,7 @@
     "remove:deploy": "now rm next-connect"
   },
   "keywords": [],
-  "author": "",
+  "author": "Beta 'Ben' Anggoro",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.1.2",
